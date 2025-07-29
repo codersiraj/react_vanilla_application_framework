@@ -1,10 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Use Nunito Sans with fallbacks */
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Nunito Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-color: #F0FFF4; /* hrms-background */
+  color: #2D3748;            /* hrms-text */
 }
 
 code {
