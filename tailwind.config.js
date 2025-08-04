@@ -6,12 +6,14 @@ module.exports = {
         sans: ['"Nunito Sans"', 'ui-sans-serif', 'system-ui'],
       },
       colors: {
-          'hrms-primary': '#1A365D',
-          'hrms-accent': '#ED8936', // Optional or gold-ish: '#ECC94B'
-          'hrms-background': '#F7FAFC',
-          'hrms-sidebar': '#1A365D',
-          'hrms-text-primary': '#2D3748',
-          'hrms-hover': '#ffa94d'
+        'hrms-primary': 'var(--hrms-primary)',
+        'hrms-accent': 'var(--hrms-accent)',
+        'hrms-background': 'var(--hrms-background)',
+        'hrms-sidebar': 'var(--hrms-sidebar)',
+        'hrms-text-primary': 'var(--hrms-text-primary)',
+        'hrms-hover': 'var(--hrms-hover)',
+        'hrms-buttontext': 'var(--hrms-buttontext)',
+        'hrms-header': 'var(--hrms-header)',
       },
     },
   },

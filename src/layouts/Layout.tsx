@@ -1,6 +1,7 @@
 import { ReactNode, useState } from 'react';
 import Header from '../components/Header';
 import Sidebar from '../components/Sidebar';
+import ThemePicker from '../components/ThemePicker';
 
 interface LayoutProps {
   children: ReactNode;
@@ -16,6 +17,8 @@ export default function Layout({ children, onLogout }: LayoutProps) {
 
   return (
     <div className="h-screen flex flex-col">
+      {/* Example: put theme picker above header */}
+      <div className="absolute top-2 right-4 z-50"><ThemePicker /></div>
       <Header
         onLogout={onLogout}
         onMenuClick={toggleSidebar}
